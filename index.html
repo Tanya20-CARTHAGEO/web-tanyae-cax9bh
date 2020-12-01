@@ -1,11 +1,80 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="fr">
+
   <head>
+    <title>Le site de Tanya</title>
     <meta charset="UTF-8">
     <script src="script.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <style>
+      header {
+        background-color:#C26B99
+      }
+    </style>
   </head>
+
   <body>
-    <h1>Hello there!</h1>
+    <header>
+    <div id = entete>
+    <h1>Partir en voyage</h1>
+    </header>
+    <p>Comment trouver la meilleure destination de <strong>voyage</strong>? </p>
+  
+<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="TexteAlternatif">
+
+  <div id = menu class = "contenu"> 
+    <h3>A faire : </h3>
+  </div>
+
+    <ol>
+  <li>Chercher un lieu</li>
+  <li>Choisir la période
+    <ul>
+      <li>Ete</li>
+      <li>Hiver</li>
+      <li>Printemps</li>
+      <li>Automne</li>
+    </ul>
+  </li>
+  <li>Bien faire sa valise</li>
+</ol>
+<a href="https://www.fr.lastminute.com/" title="InfoSurLeLien">Exemple de site de voyage ici</a>
+  <h1>Chercher un lieu</h1>
+  <div class = "contenu"> 
+    <h3>Pour passer de bonnes vacances, le lieu est important.</h3>
+    <p>Quelle destination choisir?</p>
+    <p>Au Sud, Nord, Est, Ouest?</p>
+    <p>A la plage? A la montagne?</p>
+<a href="https://www.fr.lastminute.com/" title="InfoSurLeLien">Les destinations les plus prisée : voir ici</a>
+  </div>  
+
+  <h1>Choisir une période</h1>
+  <div class = "contenu"> 
+    <h3>En fonction du lieu, il faut ensuite y aller pendant la meilleure période</h3>
+  </div>
+  <h1>Bien faire sa valise</h1>
+  <div class = "contenu"> 
+    <h3>Après avoir choisi la période pour voyager au lieu voulu, il faut mettre dans sa valise le necessaire.</h3>
+<a href="https://www.fr.lastminute.com/" title="InfoSurLeLien">Que mettre dans sa valise? Cliquez ici</a>
+  </div>
+
+  <h2>Formulaire</h2>
+  <form action="page.php" method="get">
+    <h3>Info perso</h3>
+    <p>
+    <label>nom:<input type="text" name="nom">
+    <label>prenom:<input type="text" name="prenom"></label>
+    </p>
+    <label>Tranche d'âge
+    <select name="age">
+    <option value="20">0-20 ans</option>
+    <option value="40" selected>21-40 ans</option>
+    <option value="60">41-60 ans</option>
+    <option value="80">61-80 ans</option>
+    </label>
+</select>
+
+<p>Un site créé par <em>Tanya EARLY</em>, M2 CARTHAGEO, 2020</p>
     <a href="/me.html">My other page</a>
-  </body>
+      </body>
 </html>
